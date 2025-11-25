@@ -1,0 +1,116 @@
+body {
+  font-family: Arial, sans-serif;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 1rem;
+  background-color: #f9f9f9;
+}
+h1 {
+  text-align: center;
+  color: #333;
+}
+form {
+  background-color: #fff;
+  padding: 1rem;
+  box-shadow: 0 0 5px #ccc;
+  margin-bottom: 1rem;
+  border-radius: 4px;
+}
+label {
+  display: block;
+  margin-top: 0.5rem;
+  font-weight: bold;
+}
+input[type="text"], textarea, select {
+  width: 100%;
+  padding: 0.5rem;
+  margin-top: 0.25rem;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  box-sizing: border-box;
+  font-size: 1rem;
+}
+textarea {
+  resize: vertical;
+}
+button {
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  background-color: #0078d7;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  font-weight: bold;
+}
+button:hover {
+  background-color: #005fa3;
+}
+.ideas-list {
+  background-color: #fff;
+  padding: 1rem;
+  box-shadow: 0 0 5px #ccc;
+  border-radius: 4px;
+}
+.idea-item {
+  border-bottom: 1px solid #ddd;
+  padding: 0.5rem 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.idea-info {
+  flex-grow: 1;
+}
+.idea-title {
+  font-weight: bold;
+  color: #0078d7;
+}
+.idea-status {
+  font-style: italic;
+  color: #666;
+  margin-left: 0.5rem;
+}
+.idea-desc {
+  margin: 0.3rem 0 0 0;
+  font-size: 0.9rem;
+  color: #444;
+}
+.idea-actions {
+  margin-left: 1rem;
+  display: flex;
+  gap: 0.5rem;
+}
+.idea-actions button {
+  padding: 0.25rem 0.5rem;
+  font-size: 0.85rem;
+  border-radius: 3px;
+}
+.pin-btn {
+  background-color: #28a745;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+.pin-btn:hover {
+  background-color: #1e7e34;
+}
+.unpin-btn {
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+.unpin-btn:hover {
+  background-color: #a71d2a;
+}
+.output-area {
+  white-space: pre-wrap;
+  background-color: #efefef;
+  padding: 1rem;
+  margin-top: 1rem;
+  border-radius: 4px;
+  font-family: Consolas, monospace;
+  font-size: 0.9rem;
+  color: #222;
+}
