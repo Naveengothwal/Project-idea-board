@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Project Idea Board</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <h1>Project Idea Board</h1>
+
+  <form id="ideaForm">
+    <label for="titleInput">Project Title</label>
+    <input type="text" id="titleInput" required placeholder="Enter project title" />
+    <label for="descInput">Project Description</label>
+    <textarea id="descInput" rows="3" required placeholder="Enter project description"></textarea>
+    <button type="submit">Add Project Idea</button>
+  </form>
+
+  <div class="ideas-list" id="ideasList"></div>
+
+  <button id="showFormattedBtn" style="margin-top:1rem;">Show Formatted Board Info</button>
+  <div class="output-area" id="formattedOutput"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
